@@ -1,0 +1,352 @@
+<link rel="stylesheet" href="css/estiloHjaVida.css">
+<!-- Menu -->
+<ng-include src=" 'app/template/Menu/menu.html' "></ng-include>
+
+<!-- ------------------------ PRIMER ROW ----------------------------- -->
+<div class="row">
+    <div class="col-lg-4 col-md-4 col-sm-4 hidden-xs divMiNombreEs">
+        <p>Mi Nombre Es</p>
+    </div>
+    <div class="visible-xs divFoto">
+        <div class="divRedondo">
+            <i class="glyphicon glyphicon-user fotoPerfil"></i>
+        </div>
+    </div>
+</div>
+<!-- ------------------------ FIN PRIMER ROW ----------------------------- -->
+
+<!-- --------------------------SEGUNDO ROW--------------------------------- -->
+<div class="row segundoRow">
+    <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 divNombre">
+        <h1 class="tituloNombre1">CRISTHIAN</h1>
+        <h1 class="tituloNombre2">VELASQUEZ</h1>
+    </div>
+    <div class="visible-xs">
+        <div class="row" style="width: 100%">
+            <div class="col-xs-3 contenedorDeContactosXs">
+                <div class="divRedondoContactosMs1">
+                    <i class="glyphicon glyphicon-user IconoContactosMs" onclick="mostrarUserXs()"></i>
+                </div>
+            </div>
+            <div class="col-xs-3">
+                <div class="divRedondoContactosMs1">
+                    <i class="glyphicon glyphicon-envelope IconoContactosMs" onclick="mostrarCorreoXs()"></i>
+                </div>
+            </div>
+            <div class="col-xs-3">
+                <div class="divRedondoContactosMs1">
+                    <i class="glyphicon glyphicon-phone IconoContactosMs" onclick="mostrarTelXs()"></i>
+                </div>
+            </div>
+            <div class="col-xs-3">
+                <div class="divRedondoContactosMs1">
+                    <i class="glyphicon glyphicon-home IconoContactosMs" onclick="mostrarDirXs()"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="visible-xs">
+        <div class="row" style="width: 100%">
+            <div class="col-xs-12">
+                <div id="userOcultoXs" style="display: none">
+                    <p class="centrado">Analista de Sistemas - Diseñador Web</p>
+                    <i class="glyphicon glyphicon-upload iconoSubir" onclick="ocultarUserXs()"></i>
+                </div>
+                <div id="correoOcultoXs" style="display: none">
+                    <p class="centrado">cristhianvg1991@gmail.com</p>
+                    <i class="glyphicon glyphicon-upload iconoSubir" onclick="ocultarCorreoXs()"></i>
+                </div>
+                <div id="telOcultoXs" style="display: none">
+                    <p class="centrado">311 365 0724</p>
+                    <i class="glyphicon glyphicon-upload iconoSubir" onclick="ocultarTelXs()"></i>
+                </div>
+                <div id="dirOcultoXs" style="display: none">
+                    <p class="centrado">cra 10# 16A-62 cartago(Valle)</p>
+                    <i class="glyphicon glyphicon-upload iconoSubir" onclick="ocultarDirXs()"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-4 col-md-4 col-sm-6 hidden-xs">
+        <p class="infNombre1">ANALISTA DE SISTEMAS</p>
+        <p class="infNombre2">DISEÑADOR WEB</p>
+    </div>
+    <div class="hidden-lg hidden-md col-sm-6 hidden-xs">
+        <div class="row">
+            <div class="col-sm-4 contenedorDeContactosSm">
+                <div class="divRedondoContactosMs1">
+                    <i class="glyphicon glyphicon-envelope IconoContactosMs" onclick="mostrarCorreo()"></i>
+                </div>
+            </div>
+            <div class="col-sm-4 contenedorDeContactosSm">
+                <div class="divRedondoContactosMs">
+                    <i class="glyphicon glyphicon-phone IconoContactosMs" onclick="mostrarTel()"></i>
+                </div>
+            </div>
+            <div class="col-sm-4 contenedorDeContactosSm">
+                <div class="divRedondoContactosMs">
+                    <i class="glyphicon glyphicon-home IconoContactosMs" onclick="mostrarDir()"></i>
+                </div>
+            </div>
+        </div>
+
+        <div id="correoOculto" style="display: none">
+            cristhianvg1991@gmail.com
+            <i class="glyphicon glyphicon-upload iconoSubir" onclick="ocultarCorreo()"></i>
+        </div>
+        <div id="telOculto" style="display: none">
+            311 365 0724
+            <i class="glyphicon glyphicon-upload iconoSubir" onclick="ocultarTel()"></i>
+        </div>
+        <div id="dirOculto" style="display: none">
+            cra 10# 16A-62 cartago(Valle)
+            <i class="glyphicon glyphicon-upload iconoSubir" onclick="ocultarDir()"></i>
+        </div>
+    </div>
+
+    <div class="col-lg-4 col-md-4 hidden-sm hidden-xs">
+        <i class="glyphicon glyphicon-envelope IconoContactos"></i><br>
+        <p class="tipoLetraParrafo">cristhianvg1991@gmail.com</p>
+        <i class="glyphicon glyphicon-phone IconoContactos"></i><br>
+        <p class="tipoLetraParrafo">311 365 0724</p>
+        <i class="glyphicon glyphicon-home IconoContactos"></i><br>
+        <p class="tipoLetraParrafo">Cra 10# 16A-62 Cartago(valle)</p>
+    </div>
+
+</div>
+
+<div class="row">
+    <div class="col-lg-5 col-md-6 col-sm-12 col-xs-12 divLinea">
+        <p class="divMiNombreEs">Algo Sobre Mi</p>
+    </div>
+    <div class="col-lg-1 col-md-1 hidden-xs">
+    </div>
+    <div class="col-lg-6 col-md-5 hidden-sm hidden-xs divLinea">
+        <p class="divMiNombreEs">Habilidades Tecnicas</p>
+    </div>
+</div>
+<!-- ------------------------ FIN SEGUNDO ROW ----------------------------- -->
+
+<!-- -------------------------- TERCER ROW -------------------------------- -->
+<div class="row">
+    <div class="col-lg-6 col-md-7 col-sm-12 col-xs-12 divSobreMi">
+        <p class="ParrafoSobreMi">Soy un chico de 25 años que nunca pierdo el deseo
+        de aprender y mejorar mi talento. Nunca elijo el camino facil y siempre doy mi 
+        100 por ciento en todo lo que hago. Pienso que los sueños se pueden cumplir
+        siempre y cuando luchemos por ellos.</p>
+    </div>
+    <div class="col-lg-3 col-md-2 hidden-sm hidden-xs contenedorDeCursos">
+        <div class="divNomCursoAndroid">
+            <p class="NomCurso">ANDROID</p>
+        </div>
+        <div class="divNomCursoJava">
+            <p class="NomCurso">JAVA</p>
+        </div>
+        <div class="divNomCursoExel">
+            <p class="NomCurso">EXCEL</p>
+        </div>
+        <div class="divNomCursoWord">
+            <p class="NomCurso">WORD</p>
+        </div>
+    </div>
+    <div class="col-lg-3 col-md-3 hidden-sm hidden-xs contenedorDeInfCursos">
+        <p class="parrafoInf">Desarrollo de aplicaciones para dispositivos andorid. <a data-toggle="modal" data-target="#modal1">Mas</a></p>
+        <p class="parrafoInf">Fundamentos básicos en Programación Java. <a data-toggle="modal" data-target="#modal2">Mas</a></p>
+        <p class="parrafoInf">Manejo de las herramientas basicas de Excel. <a data-toggle="modal" data-target="#modal3">Mas</a></p>
+        <p class="parrafoInf">Manejo de las herramientas basicas de Word. <a data-toggle="modal" data-target="#modal4">Mas</a></p>
+    </div>
+</div>
+
+<div class="row visible-sm">
+    <div class="col-sm-12 divLinea">
+        <p class="divMiNombreEs">Habilidades Tecnicas</p>
+    </div>
+</div>
+<div class="row visible-xs">
+    <div class="col-sm-12 divLinea">
+        <p class="divMiNombreEs">Habilidades Tecnicas</p>
+    </div>
+</div>
+
+<div class="row visible-sm">
+    <div class="col-sm-6 contenedorDeCursosSm">
+        <div class="divNomCursoAndroid">
+            <p class="NomCurso">ANDROID</p>
+        </div>
+        <div class="divNomCursoJava">
+            <p class="NomCurso">JAVA</p>
+        </div>
+        <div class="divNomCursoExel">
+            <p class="NomCurso">EXCEL</p>
+        </div>
+        <div class="divNomCursoWord">
+            <p class="NomCurso">WORD</p>
+        </div>
+    </div>
+    <div class="col-sm-6 contenedorDeInfCursosSm">
+        <p class="parrafoInfSm">Desarrollo de aplicaciones para dispositivos andorid. <a data-toggle="modal" data-target="#modal1">Mas</a></p>
+        <p class="parrafoInfSm">Fundamentos básicos en Programación Java. <a data-toggle="modal" data-target="#modal2">Mas</a></p>
+        <p class="parrafoInfSm">Manejo de las herramientas basicas de Excel. <a data-toggle="modal" data-target="#modal3">Mas</a></p>
+        <p class="parrafoInfSm">Manejo de las herramientas basicas de Word. <a data-toggle="modal" data-target="#modal4">Mas</a></p>
+    </div>
+</div>
+
+<div class="row visible-xs">
+    <div class="col-xs-12 contenedorDeCursosXs" id="estudios">
+        <div class="">
+            <button class="btn btn-block btn-lg botonAndroidSx" onclick="mostrarAndroid()">ANDROID</button>
+        </div>
+        <div id="andoridOculto" style="display: none">
+            <div class="row">
+                <div class="col-xs-10 col-xs-offset-1">
+                    <h3>CURSO ANDROID</h3>
+                    <p>Lugar:</p>
+                    <p>Fecha:</p>
+                    <p>Horas:</p>
+                    <p>Calificacion:</p>
+                    <p>Intructor:</p>
+                </div>
+            </div>
+            <p class="iconCerrarDivOcultoXs"><a onclick="ocultarAndroid()"><i class="glyphicon glyphicon-remove-circle"></i></a></p>
+        </div>
+        <div class="">
+            <button class="btn btn-block btn-lg botonJavaSx" onclick="mostrarJava()">JAVA</button>
+        </div>
+        <div id="javaOculto" style="display: none">
+            <div class="row">
+                <div class="col-xs-10 col-xs-offset-1">
+                    <h3>CURSO JAVA</h3>
+                    <p>Lugar:</p>
+                    <p>Fecha:</p>
+                    <p>Horas:</p>
+                    <p>Calificacion:</p>
+                    <p>Intructor:</p>
+                </div>
+            </div>
+            <p class="iconCerrarDivOcultoXs"><a onclick="ocultarJava()"><i class="glyphicon glyphicon-remove-circle"></i></a></p>
+        </div>
+        <div class="">
+            <button class="btn btn-block btn-lg botonExelSx" onclick="mostrarExcel()">EXCEL</button>
+        </div>
+        <div id="excelOculto" style="display: none">
+            <div class="row">
+                <div class="col-xs-10 col-xs-offset-1">
+                    <h3>CURSO EXCEL</h3>
+                    <p>Lugar:</p>
+                    <p>Fecha:</p>
+                    <p>Horas:</p>
+                    <p>Calificacion:</p>
+                    <p>Intructor:</p>
+                </div>
+            </div>
+            <p class="iconCerrarDivOcultoXs"><a onclick="ocultarExcel()"><i class="glyphicon glyphicon-remove-circle"></i></a></p>
+        </div>
+        <div class="">
+            <button class="btn btn-block btn-lg botonWordSx" onclick="mostrarWord()">WORD</button>
+        </div>
+        <div id="wordOculto" style="display: none">
+            <div class="row">
+                <div class="col-xs-10 col-xs-offset-1">
+                    <h3>CURSO WORD</h3>
+                    <p>Lugar:</p>
+                    <p>Fecha:</p>
+                    <p>Horas:</p>
+                    <p>Calificacion:</p>
+                    <p>Intructor:</p>
+                </div>
+            </div>
+            <p class="iconCerrarDivOcultoXs"><a onclick="ocultarWord()"><i class="glyphicon glyphicon-remove-circle"></i></a></p>
+        </div>
+    </div>
+</div>
+<!-- ------------------------ FIN TERCER ROW ----------------------------- -->
+
+
+
+
+<!-- Modales -->
+<div class="modal fade bs-example-modal-lg" id="modal1" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-6 hidden-xs">
+                    <p class="centrado"><img src="img/Android.png" class="imgCurso"></p>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-6 hidden-xs">
+                    <h3>Nombre del Curso</h3>
+                    <p>Lugar:</p>
+                    <p>Fecha:</p>
+                    <p>Horas:</p>
+                    <p>Calificacion:</p>
+                    <p>Intructor:</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade bs-example-modal-lg" id="modal2" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-6 hidden-xs">
+                    <p class="centrado"><img src="img/Java.png" class="imgCurso"></p>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-6 hidden-xs">
+                    <h3>Nombre del Curso</h3>
+                    <p>Lugar:</p>
+                    <p>Fecha:</p>
+                    <p>Horas:</p>
+                    <p>Calificacion:</p>
+                    <p>Intructor:</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade bs-example-modal-lg" id="modal3" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-6 hidden-xs">
+                    <p class="centrado"><img src="img/Excel.png" class="imgCurso"></p>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-6 hidden-xs">
+                    <h3>Nombre del Curso</h3>
+                    <p>Lugar:</p>
+                    <p>Fecha:</p>
+                    <p>Horas:</p>
+                    <p>Calificacion:</p>
+                    <p>Intructor:</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade bs-example-modal-lg" id="modal4" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-6 hidden-xs">
+                    <p class="centrado"><img src="img/Word.png" class="imgCurso"></p>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-6 hidden-xs">
+                    <h3>Nombre del Curso</h3>
+                    <p>Lugar:</p>
+                    <p>Fecha:</p>
+                    <p>Horas:</p>
+                    <p>Calificacion:</p>
+                    <p>Intructor:</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+

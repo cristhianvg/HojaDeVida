@@ -1,0 +1,260 @@
+body{
+    background: #F5F4F2;
+}
+.divMiNombreEs{
+    font-family: NewsGoth Cn BT;
+    font-size: 20px;
+}
+
+/*div Foto*/
+
+.divRedondo{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background: #28a4c9;
+    margin: 0 auto 0 auto;
+    text-align: center;
+    padding: 14px;
+}
+.fotoPerfil{
+    font-size: 100px;
+}
+
+
+/*div nombre*/
+.divNombre{
+    border-right: solid black 2px;
+    height: 200px;
+}
+
+.segundoRow{
+    height: 230px;
+}
+.tituloNombre1{
+    font-family: Impact;
+    font-size: 70px;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    color: #5e5e5e;
+    text-align: center;
+}
+.tituloNombre2{
+    font-family: Impact;
+    font-size: 70px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color: #28a4c9;
+    text-align: center;
+}
+
+/*div infNombre*/
+.infNombre1{
+    font-family: NewsGoth Cn BT;
+    font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+.infNombre2{
+    font-family: NewsGoth Cn BT;
+    font-size: 30px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+/*Div contacto*/
+.IconoContactos{
+    font-size: 40px;
+    color: #28a4c9;
+}
+.contenedorDeDivRedondosSm{
+    border-top: solid black 2px;
+    height: 80px;
+    padding-left: 5px;
+}
+.divRedondoContactosMs1{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    background: #28a4c9;
+    margin-bottom: 10px;
+    text-align: center;
+
+}
+.divRedondoContactosMs{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    background: #28a4c9;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.IconoContactosMs{
+    margin-top: 13px;
+    color: white;
+    font-size: 30px
+}
+.contenedorDeContactosSm{
+    padding-top: 10px;
+}
+#correoOculto{
+    font-size: 25px;
+    font-family: NewsGoth Cn BT;
+    padding: 5px;
+}
+#telOculto{
+    font-size: 25px;
+    font-family: NewsGoth Cn BT;
+    padding: 5px;
+}
+#dirOculto{
+    font-size: 25px;
+    font-family: NewsGoth Cn BT;
+    padding: 5px;
+}
+#userOcultoXs{
+    font-size: 25px;
+    font-family: NewsGoth Cn BT;
+    padding: 5px;
+}
+#correoOcultoXs{
+    font-size: 25px;
+    font-family: NewsGoth Cn BT;
+    padding: 5px;
+}
+#telOcultoXs{
+    font-size: 25px;
+    font-family: NewsGoth Cn BT;
+    padding: 5px;
+}
+#dirOcultoXs{
+    font-size: 25px;
+    font-family: NewsGoth Cn BT;
+    padding: 5px;
+}
+.iconoSubir{
+    font-size: 30px;
+    float: right;
+}
+
+/*Div sobre mi*/
+.divSobreMi{
+    height: 200px;
+}
+.ParrafoSobreMi{
+    font-family: Century Gothic;
+    font-size: 20px;
+    text-align: justify;
+    margin: 5px;
+}
+
+/*Div programas de formacion*/
+.contenedorDeCursos{
+    padding: 0px;
+    height: 200px;
+}
+.divNomCursoAndroid{
+    background: #3DEB1A;
+    margin-top: 10px;
+    margin-left: 0px;
+    width: 100%;
+    height: 35px;
+}
+.divNomCursoJava{
+    background: red;
+    margin-top: 10px;
+    margin-left: 0px;
+    width: 100%;
+    height: 35px;
+}
+.divNomCursoExel{
+    background: green;
+    margin-top: 10px;
+    margin-left: 0px;
+    width: 100%;
+    height: 35px;
+}
+.divNomCursoWord{
+    background: #06188B;
+    margin-top: 10px;
+    margin-left: 0px;
+    width: 100%;
+    height: 35px;
+}
+.NomCurso{
+    font-family: Century Gothic;
+    font-weight: bold;
+    color: white;
+    font-size: 25px;
+    text-align: center;
+}
+.contenedorDeCursosSm{
+    padding: 0px;
+    height: 200px;
+}
+.contenedorDeCursosXs{
+    padding: 0px;
+    height: 235px;
+}
+.botonAndroidSx{
+    background: #99CC00;
+    margin-top: 10px;
+    color: white;
+}
+.botonJavaSx{
+    background: red;
+    margin-top: 10px;
+    color: white;
+}
+.botonExelSx{
+    background: green;
+    margin-top: 10px;
+    color: white;
+}
+.botonWordSx{
+    background: blue;
+    margin-top: 10px;
+    color: white;
+}
+
+/*Div Informacion del curso*/
+.contenedorDeInfCursos{
+    height: 200px;
+}
+.parrafoInf{
+    font-family: Century Gothic;
+}
+.contenedorDeInfCursosSm{
+    height: 200px;
+}
+.parrafoInfSm{
+    font-family: Century Gothic;
+    font-size: 15px;
+}
+.iconCerrarDivOcultoXs{
+    text-align: center;
+}
+
+
+
+
+
+.divLinea{
+    border-bottom: solid black 2px;
+}
+.centrado{
+    text-align: center;
+}
+.tipoLetraParrafo{
+    font-family: Century Gothic;
+}
+.imgCurso{
+    width: 200px;
+    height: 200px;
+}
+.footer{
+    background: gray;
+    color: white;
+    font-size: 10px;
+    text-align: center;
+}
